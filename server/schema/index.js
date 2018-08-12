@@ -8,29 +8,7 @@ const { GraphQLObjectType,
         GraphQLSchema
     } = graphql;
 
-// Dummy Data
-const books = [
-    {
-        id: '1',
-        name: 'HTML and CSS: Design and Build Websites',
-        genre: 'Technology',
-        authorId: '1'
-    },
-    {
-        id: '2',
-        name: 'JavaScript and JQuery: Interactive Front-End Web Development',
-        genre: 'Technology',
-        authorId: '1'
-    }
-]
-
-const authors = [
-    {
-        id: '1',
-        name: 'Jon Duckett' 
-    }
-]
-
+    
 const BookType = new GraphQLObjectType({
     name: 'Book',
     fields: () => ({
@@ -49,7 +27,7 @@ const BookType = new GraphQLObjectType({
 });
 
 const AuthorType = new GraphQLObjectType({
-    name: 'author',
+    name: 'Author',
     fields: () => ({
         id: {type: GraphQLID },
         name: {type: GraphQLString},

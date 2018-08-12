@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "alexandercleoni",
+    "password": null,
+    "database": "graphql-playlist",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "alexandercleoni",
+    "password": null,
+    "database": "graphql-playlist",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "alexandercleoni",
+    "password": null,
+    "database": "graphql-playlist",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
